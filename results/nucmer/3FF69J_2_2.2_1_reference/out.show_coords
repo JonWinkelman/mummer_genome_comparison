@@ -1,0 +1,12 @@
+/Users/jonathanwinkelman/Trestle/Mukherjee_lab/20260105_analiml_bdello_genome_comp/mummer_genome_comparison/references/GCA_000196175.1_ASM19617v1_genomic.fna /Users/jonathanwinkelman/Trestle/Mukherjee_lab/20260105_analiml_bdello_genome_comp/mummer_genome_comparison/data/3FF69J_results/3FF69J_2_2.2/3FF69J_2_2.2_1_reference.fasta
+NUCMER
+
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
+=====================================================================================
+       1   913571  |  1615236   701668  |   913571   913569  |    99.99  | BX842601.2	contig_1
+  552999   553123  |  2770985  2771109  |      125      125  |    96.00  | BX842601.2	contig_1
+  915579  1617244  |   701667        1  |   701666   701667  |    99.99  | BX842601.2	contig_1
+ 2601562  3782950  |  2796631  1615237  |  1181389  1181395  |    99.99  | BX842601.2	contig_1
+ 2627084  2627208  |  1062115  1062239  |      125      125  |    96.00  | BX842601.2	contig_1
+ 2600560  2601339  |      779        1  |      780      779  |    99.49  | BX842601.2	contig_3
+ 1622450  2600557  |        1   978107  |   978108   978107  |    99.99  | BX842601.2	contig_2
