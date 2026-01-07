@@ -1,0 +1,76 @@
+/Users/jonathanwinkelman/Trestle/Mukherjee_lab/20260105_analiml_bdello_genome_comp/mummer_genome_comparison/references/GCA_000196175.1_ASM19617v1_genomic.fna /Users/jonathanwinkelman/Trestle/Mukherjee_lab/20260105_analiml_bdello_genome_comp/mummer_genome_comparison/data/3FF69J_results/3FF69J_2_2.2/3FF69J_2_2.2_1_reference.fasta
+
+============================================================
+-- Alignments between BX842601.2 and contig_3
+
+-- BEGIN alignment [ +1 2600560 - 2601339 | -1 779 - 1 ]
+
+
+2600560    gagccagccctaggttcttgg.cagacaatataagatcgaccagacgat
+779        gagccagccctaggttcttggccagaca..gtaagatcgaccagacgat
+                                ^      ^^^                  
+
+2600608    cttgatcttgaaacagaaatagctctgcacccagaatatcatcgaaact
+732        cttgatcttgaaacagaaatagctctgcacccagaatatcatcgaaact
+                                                            
+
+2600657    gttggatgaatcgaggtatgaagacagatcatctatatcaattttagga
+683        gttggatgaatcgaggtatgaagacagatcatctatatcaattttagga
+                                                            
+
+2600706    aatttgtaaacaagtgcaatttccttagtcttctcatctatatgaagca
+634        aatttgtaaacaagtgcaatttccttagtcttctcatctatatgaagca
+                                                            
+
+2600755    ttacctcaccaagcttactaagtgagttaagtttttttgcagcaaaaat
+585        ttacctcaccaagcttactaagtgagttaagtttttttgcagcaaaaat
+                                                            
+
+2600804    cattttcttatttgaaataccaggaaaatttacgagattcggaaaagag
+536        cattttcttatttgaaataccaggaaaatttacgagattcggaaaagag
+                                                            
+
+2600853    atagtataatagttttcgccatcaccaatgattttcattgagttgacct
+487        atagtataatagttttcgccatcaccaatgattttcattgagttgacct
+                                                            
+
+2600902    tattcacaatctcgatgcgatcaggctctcgtttcgtcatttcaaatat
+438        tattcacaatctcgatgcgatcaggctctcgtttcgtcatttcaaatat
+                                                            
+
+2600951    catttttttgagaagtgctgtatgcccctggatgaagtcatcttcttgc
+389        catttttttgagaagtgctgtatgcccctggatgaagtcatcttcttgc
+                                                            
+
+2601000    ctgctaactagtttttgatctaaaaaagaatcaaaatctgcccagaaaa
+340        ctgctaactagtttttgatctaaaaaagaatcaaaatctgcccagaaaa
+                                                            
+
+2601049    cttctttcaccggatgaatgctataatcgtaggctactttaaaaaatgc
+291        cttctttcaccggatgaatgctataatcgtaggctactttaaaaaatgc
+                                                            
+
+2601098    ataacgttcaggcatactcaacccgtcatgcattttaataatctgatca
+242        ataacgttcaggcatactcaacccgtcatgcattttaataatctgatca
+                                                            
+
+2601147    acaaagtattttacttgaaagttaaatattgttcctgactcaacacaaa
+193        acaaagtattttacttgaaagttaaatattgttcctgactcaacacaaa
+                                                            
+
+2601196    tctttctgaaaccatcaggagaaatttccatttgctgcaaatctcgtac
+144        tctttctgaaaccatcaggagaaatttccatttgctgcaaatctcgtac
+                                                            
+
+2601245    tattcctgcaagatttttatgaccgacatctgcaccgactccccatatc
+95         tattcctgcaagatttttatgaccgacatctgcaccgactccccatatc
+                                                            
+
+2601294    ttttcatcaaacactcgattatcgtcaaccaagtactcgatctctt
+46         ttttcatcaaacactcgattatcgtcaaccaagtactcgatctctt
+                                                         
+
+
+--   END alignment [ +1 2600560 - 2601339 | -1 779 - 1 ]
+
+============================================================
