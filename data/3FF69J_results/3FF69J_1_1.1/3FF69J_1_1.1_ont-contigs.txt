@@ -1,0 +1,20 @@
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Node count:                       2
+Edge count:                       0
+Smallest edge overlap (bp):       0
+Largest edge overlap (bp):        0
+Total length (bp):                3789022
+Total length no overlaps (bp):    3789022
+Dead ends:                        4
+Percentage dead ends:             100%
+Connected components:             2
+Largest component (bp):           1948703
+Total length orphaned nodes (bp): 1948703
+N50 (bp):                         1948703
+Shortest node (bp):               1840319
+Lower quartile node (bp):         1867415
+Median node (bp):                 1894511
+Upper quartile node (bp):         1921607
+Longest node (bp):                1948703
+Median depth:                     2
+Estimated sequence length (bp):   5629341

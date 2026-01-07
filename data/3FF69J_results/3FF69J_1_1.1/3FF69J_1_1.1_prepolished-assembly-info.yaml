@@ -1,0 +1,10 @@
+consensus_assembly_bases: 3789022
+consensus_assembly_unitigs: 2
+consensus_assembly_fully_resolved: true
+consensus_assembly_clusters:
+- length: 1948703
+  unitigs: 1
+  topology: linear-open-open
+- length: 1840319
+  unitigs: 1
+  topology: linear-open-open
