@@ -1,8 +1,8 @@
 # MUMmer genome comparison  
 manual here (for older version):  
-https://mummer.sourceforge.net/manual/#utilities 
+https://mummer.sourceforge.net/manual/#utilities  
 MUMmer4 github page:  
-https://github.com/mummer4/mummer
+https://github.com/mummer4/mummer  
 
 
 ### For use with trusted preassembled genomes  
