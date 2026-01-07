@@ -1,6 +1,9 @@
-# MUMer genome comparison  
-manual here:  
-https://mummer.sourceforge.net/manual/#utilities  
+# MUMmer genome comparison  
+manual here (for older version):  
+https://mummer.sourceforge.net/manual/#utilities 
+MUMmer4 github page:  
+https://github.com/mummer4/mummer
+
 
 ### For use with trusted preassembled genomes  
 - use mummer's dnadiff tool  
