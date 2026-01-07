@@ -1,0 +1,12 @@
+name: mummer
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - mummer
+  - jupyterlab
+  - pandas
+  - plotly
+  - gnuplot
+prefix: /Users/jonathanwinkelman/miniconda3/envs/mummer
