@@ -5,6 +5,21 @@ import pandas as pd
 
 
 import bisect
+
+        
+def make_arrow_from_SE_coords(start, end, base_ycoord, top_ycoord, arrow_direction='forward'):
+    """"""
+    if arrow_direction=='forward':
+        br = start + 0.85*(end-start)
+        mid=base_ycoord+0.5
+        xvals=[start,            br,             end,      br,           start,         start        ]
+        yvals=[base_ycoord,      base_ycoord,    mid,     top_ycoord,    top_ycoord,    base_ycoord]
+        return xvals, yvals
+    elif arrow_direction=='reverse':
+        return make_arrow_from_SE_coords(end, start, base_ycoord, top_ycoord)
+
+
+
 def map_snps_to_genes(snps_df, annot_df): 
     
     colnames  = [
@@ -71,7 +86,7 @@ def make_snp_df(snps_fp):
 def unaligned_segments(
     starts: Iterable[int],
     ends: Iterable[int],
-    ref_len: int,
+    contig_len: int,
     *,
     assume_half_open: bool = True,
     merge_adjacent: bool = True,
@@ -85,8 +100,8 @@ def unaligned_segments(
     starts, ends
         Coordinates for aligned segments on the reference.
         By default these are treated as 0-based, half-open intervals [start, end).
-    ref_len
-        Total length of the reference.
+    contig_len
+        Total length of the contig.
     assume_half_open
         If False, treat input as closed intervals [start, end] and convert to half-open.
     merge_adjacent
@@ -98,8 +113,8 @@ def unaligned_segments(
     -------
     List of (start, end) half-open intervals [start, end) that are unaligned.
     """
-    if ref_len < 0:
-        raise ValueError("ref_len must be >= 0")
+    if contig_len < 0:
+        raise ValueError("contig_len must be >= 0")
 
     # Build and sanitize intervals
     intervals: List[Tuple[int, int]] = []
@@ -117,8 +132,8 @@ def unaligned_segments(
             s, e = e, s
 
         # clamp to reference bounds
-        s = max(0, min(s, ref_len))
-        e = max(0, min(e, ref_len))
+        s = max(0, min(s, contig_len))
+        e = max(0, min(e, contig_len))
 
         # skip empty
         if e <= s:
@@ -127,7 +142,7 @@ def unaligned_segments(
         intervals.append((s, e))
 
     if not intervals:
-        return [(0, ref_len)] if ref_len >= min_len else []
+        return [(0, contig_len)] if contig_len >= min_len else []
 
     # Sort and merge
     intervals.sort()
@@ -152,8 +167,8 @@ def unaligned_segments(
                 gaps.append((prev_end, s))
         prev_end = max(prev_end, e)
 
-    if ref_len > prev_end and (ref_len - prev_end) >= min_len:
-        gaps.append((prev_end, ref_len))
+    if contig_len > prev_end and (contig_len - prev_end) >= min_len:
+        gaps.append((prev_end, contig_len))
 
     return gaps
 
