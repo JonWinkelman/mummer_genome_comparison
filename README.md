@@ -14,6 +14,6 @@ conda activate mummer
 jupyter-lab
 ```
 
-open dna_diff.ipynb notebook  
+open mummer_comparison.ipynb notebook  
 
 
